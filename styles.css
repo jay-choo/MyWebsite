@@ -1,0 +1,91 @@
+:root{
+    --text: #000000;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #5e5b5b;
+    padding: 0px;
+    margin: 0px;
+    margin-left:520px;
+    margin-right:520px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.navbar a{
+    width: 200px;
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #222222;
+}
+.navbar li{
+    display: inline-block;
+}
+
+
+body, html {
+    margin: 0px;
+    padding: 10px;
+    background: var(--background);
+    color: #000000;
+    font-family: sans-serif;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    display: block;
+    width: 15%;
+    border-radius: calc(50px);
+    border: 4px solid #5e5b5b;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+a {
+    color: #000000;
+}
+
+input {
+    display: block;
+    margin: 20px 0 0;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    border-width: 1px; 
+    border-style: solid;
+    border-color:  var(--text);
+    color: var(--text);
+    background: none;
+    border-radius: var(--image);
+    font-family: var(--font);
+}
+
+::placeholder {
+    color: var(--text);
+}
+
+button {
+    border-radius: var(--image);
+    padding: 5px 10px;
+    border: none;
+    background: var(--text);
+    color: var(--background);
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: var(--font);
+    width: 160px;
+}
