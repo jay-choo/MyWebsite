@@ -5,12 +5,13 @@ h1{
     text-align: center;
 }
 .navbar ul{
+    display:block;
     list-style-type: none;
     background-color: #5e5b5b;
     padding: 0px;
     margin: 0px;
-    margin-left:520px;
-    margin-right:520px;
+    margin-left:auto;
+    margin-right:auto;
     overflow: hidden;
     text-align: center;
 
