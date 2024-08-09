@@ -5,22 +5,19 @@ h1{
     text-align: center;
 }
 .navbar ul{
-    display:block;
+    display:flex;
+    justify-content: center;
     list-style-type: none;
-    background-color: #5e5b5b;
-    padding: 0px;
-    margin: 0px;
-    margin-left:auto;
-    margin-right:auto;
+    padding: auto;
     overflow: hidden;
-    text-align: center;
 
 }
 .navbar a{
     width: 200px;
     color:white;
     text-decoration: none;
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: block;
     text-align: center;
 }
@@ -28,7 +25,10 @@ h1{
     background-color: #222222;
 }
 .navbar li{
+    background-color: #5e5b5b;
     display: inline-block;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 
